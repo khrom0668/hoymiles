@@ -19,7 +19,7 @@ I developed this program to integrate my solar system data to [Home Assistant](h
 
 Now, [Cosik](https://github.com/Cosik)  is helping too.
 
-[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fdmslabsbr%2Fhoymiles)
+[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fkhrom0668%2Fhoymiles)
 
 But you can use the application without using the Home Assistant. You just need a machine that runs Python3. It based on mqtt messages, so could be send from any device to MQTT Broker.
 
@@ -42,7 +42,7 @@ Before run you need to install:
 
 
 ```bash
-git clone https://github.com/dmslabsbr/hoymiles.git
+git clone https://github.com/khrom0668/hoymiles.git
 cd hoymiles
 python3 -m venv ./hoymiles/
 source ./bin/activate
@@ -53,7 +53,7 @@ pip3 install python-dateutil
 
 My solar panels communicate with the internet using a DTU-W100 gateway.
 
-<img src="https://github.com/dmslabsbr/hoymiles/raw/master/img/icon.png" alt="" width="300" />
+<img src="https://github.com/khrom0668/hoymiles/raw/master/img/icon.png" alt="" width="300" />
 
 But it will probably work with any device that uses the [global.hoymiles.com](https://global.hoymiles.com/) Website. It was tested with DTU-PRO also.
 
@@ -82,11 +82,11 @@ I invite everyone to help in the this tool development.
 
 ## Screenshots
 
-<img src="https://github.com/dmslabsbr/hoymiles/blob/master/edge/img/Hass1.png?raw=true" alt="" width="400" />
+<img src="https://github.com/khrom0668/hoymiles/blob/master/edge/img/Hass1.png?raw=true" alt="" width="400" />
 
-<img src="https://github.com/dmslabsbr/hoymiles/blob/master/edge/img/Hass2.png?raw=true" alt="" width="400" />
+<img src="https://github.com/khrom0668/hoymiles/blob/master/edge/img/Hass2.png?raw=true" alt="" width="400" />
 
-<img src="https://github.com/dmslabsbr/hoymiles/blob/master/edge/img/Hass3.png?raw=true" alt="" width="400" />
+<img src="https://github.com/khrom0668/hoymiles/blob/master/edge/img/Hass3.png?raw=true" alt="" width="400" />
 
 
 
